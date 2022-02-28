@@ -1,59 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cosméticos inovadores feitos de limão">
-    <!-- colocar icone e cor barra de pesquisa -->
+    <meta name="theme-color" content=#335A36; />
     <title>Lemonesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/lemonesa.simples.png">
 </head>
 <body>
 
-    <header>
-        <img src="images/Logo.png" alt="logo Lemonesa">
-        <nav>
-            <a>História</a>
-            <a>Produtos</a>
-            <a>Contato</a>
+    <header class="cabecalho">
+        <img class="cabecalho-image" src="images/Logo.png" alt="logo Lemonesa">
+        <nav class="cabecalho-menu">
+            <a href="#conteudo-principal2" class="cabecalho-menu-item">História</a>
+            <a href="#conteudo-principal3-image" class="cabecalho-menu-item">Produtos</a>
+            <a href="#rodape" class="cabecalho-menu-item">Contato</a>
+            <!-- fazer link levar até # -->
         </nav>
     </header>
 
-    <main>
-        <section>
-            <img src="images/Lemonesa.capa.png" alt="Um produto Lemonesa">
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <img class="conteudo-principal-image" src="images/Lemonesa.capa.png" alt="Um produto Lemonesa">
         </section>
 
-        <section>
-            <img src="images/campo.png" alt="vetor campo">
+        <section class="conteudo-principal2">
+            <img class="conteudo-principal2-image" src="images/campo.png" alt="vetor campo">
 
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="conteudo-principal2-escrito">
+                <hr class="risco"><br><br><br><p class="paragrafo"><bold>LEMONESA</bold> É UMA MARCA DE COSMÉTICOS CÍTRICOS COM CHEIRO ILUSTRE E DELICIOSO DE LIMÃO. <br> <br>
+
+                    O principal ingrediente dos produtos é extraido no Sul brasileiro por famílias locais. A palavra “Lemonesa” vem da junção entre Limão e Camponês, e foi escolhida pois nessa região a fruta típica é cultivada pelas famílias camponesas que lá habitam desde séculos passados. <br> <br>
+                   
+                   Inspirada em traços sofisticados mas com detalhes que lembram um limão, a combinação de tipografia e layout minimalista representa o que os produtos são: rebuscados e marcantes.
+                   <br><br><br><hr class="risco"> </p>
             </div>
         </section>
 
-        <section>
-            <img src="images/produtos.png" alt="produtos lemonesa">
+        <section class="conteudo-principal3">
+            <img class="conteudo-principal3-image" src="images/produtos.png" alt="produtos lemonesa">
         </section>
 
-        <section>
-            <div> <!-- colocar a flexbox -->
-                <img src="images/trio.1.png" alt="mockup marca lugar">
-                <img src="images/trio.2.png" alt="mockup marca papel">
-                <img src="images/trio.3.png" alt="mockup marca caixa">
+        <section class="conteudo-principal4">
+            <div class="conteudo-principal4-grupo-image"> <!-- colocar a flexbox -->
+                <img class="conteudo-principal4-image" src="images/trio.1.png" alt="mockup marca lugar">
+                <img class="conteudo-principal4-image" src="images/trio.2.png" alt="mockup marca papel">
+                <img class="conteudo-principal4-image" src="images/trio.3.png" alt="mockup marca caixa">
             </div>
         </section>
     </main>
 
-    <footer>
-       <div>
+    <footer class="rodape">
+       <div class="rodape-escrito">
            Criado por Bruna Fusiger
        </div>
 
-       <div>
-           <img src="images/logotipo-do-linkedin.png" alt="Linkedin">
-           <img src="images/instagram.png" alt="Instagram">
-           <img src="images/placa-do-github.png" alt="GitHub">
+       <div class="rodape-grupo-image">
+           <a href="https://www.linkedin.com/in/bruna-fusiger-5585a11ba/" target="_blank"><img class="rodape-image" src="images/logotipo-do-linkedin.png" alt="Linkedin"></a>
+           <a href="https://www.instagram.com/fusiger_bru/" target="_blank"><img class="rodape-image" src="images/instagram.png" alt="Instagram"></a>
+          <a href="https://github.com/BrunaFusiger" target="_blank"><img class="rodape-image" src="images/placa-do-github.png" alt="GitHub"></a>
        </div>
     </footer>
     
