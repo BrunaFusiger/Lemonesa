@@ -1,0 +1,16 @@
+@import "./reset.css";
+@import "./utils/layout.css";
+@import "./utils/font.css";
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/footer.css";
+
+*{
+    box-sizing: border-box;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
