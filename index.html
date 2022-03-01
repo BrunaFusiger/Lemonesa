@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,64 +8,70 @@
     <meta name="description" content="Cosméticos inovadores feitos de limão">
     <meta name="theme-color" content=#335A36; />
     <title>Lemonesa</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/lemonesa.simples.png">
 </head>
+
 <body>
 
-    <header class="cabecalho">
-        <img class="cabecalho-image" src="images/Logo.png" alt="logo Lemonesa">
-        <nav class="cabecalho-menu">
-            <a href="#conteudo-principal2" class="cabecalho-menu-item">História</a>
-            <a href="#conteudo-principal3-image" class="cabecalho-menu-item">Produtos</a>
-            <a href="#rodape" class="cabecalho-menu-item">Contato</a>
-            <!-- fazer link levar até # -->
+    <header id="cabecalho" class="flex">
+        <img src="images/Logo.png" alt="logo Lemonesa">
+        <nav id="cabecalho-menu" class="flex">
+            <a href="#conteudo-principal2" class="cabecalho-menu-item font-georgia">História</a>
+            <a href="#conteudo-principal3" class="cabecalho-menu-item font-georgia">Produtos</a>
+            <a href="#rodape" class="cabecalho-menu-item font-georgia">Contato</a>
         </nav>
     </header>
 
-    <main class="conteudo">
-        <section class="conteudo-principal">
-            <img class="conteudo-principal-image" src="images/Lemonesa.capa.png" alt="Um produto Lemonesa">
+    <main>
+        <section id="conteudo-principal">
+            <img id="conteudo-principal-image" class="big-image" src="images/Lemonesa.capa.png"
+                alt="Um produto Lemonesa">
         </section>
 
-        <section class="conteudo-principal2">
-            <img class="conteudo-principal2-image" src="images/campo.png" alt="vetor campo">
+        <section id="conteudo-principal2" class="flex">
+            <img id="conteudo-principal2-image" src="images/campo.png" alt="vetor campo">
 
-            <div class="conteudo-principal2-escrito">
-                <br><br><br><p class="paragrafo"><bold>LEMONESA</bold> É UMA MARCA DE COSMÉTICOS CÍTRICOS COM CHEIRO ILUSTRE E DELICIOSO DE LIMÃO. <br> <br>
+            <div id="conteudo-principal2-escrito" class="font-georgia">
+                <p><strong>LEMONESA</strong> É UMA MARCA DE COSMÉTICOS CÍTRICOS COM CHEIRO ILUSTRE E DELICIOSO DE LIMÃO.
+                    <br> <br>
 
-                    O principal ingrediente dos produtos é extraido no Sul brasileiro por famílias locais. A palavra “Lemonesa” vem da junção entre Limão e Camponês, e foi escolhida pois nessa região a fruta típica é cultivada pelas famílias camponesas que lá habitam desde séculos passados. <br> <br>
-                   
-                   Inspirada em traços sofisticados mas com detalhes que lembram um limão, a combinação de tipografia e layout minimalista representa o que os produtos são: rebuscados e marcantes.
-                   <br><br><br> </p>
+                    O principal ingrediente dos produtos é extraido no Sul brasileiro por famílias locais. A palavra
+                    “Lemonesa” vem da junção entre Limão e Camponês, e foi escolhida pois nessa região a fruta típica é
+                    cultivada pelas famílias camponesas que lá habitam desde séculos passados. <br> <br>
+
+                    Inspirada em traços sofisticados mas com detalhes que lembram um limão, a combinação de tipografia e
+                    layout minimalista representa o que os produtos são: rebuscados e marcantes.
+                </p>
             </div>
         </section>
 
-        <section class="conteudo-principal3">
-            <img class="conteudo-principal3-image" src="images/produtos.png" alt="produtos lemonesa">
+        <section id="conteudo-principal3">
+            <img id="conteudo-principal3-image" class="big-image" src="images/produtos.png" alt="produtos lemonesa">
         </section>
 
-        <section class="conteudo-principal4">
-            <div class="conteudo-principal4-grupo-image"> <!-- colocar a flexbox -->
-                <img class="conteudo-principal4-image" src="images/trio.1.png" alt="mockup marca lugar">
-                <img class="conteudo-principal4-image" src="images/trio.2.png" alt="mockup marca papel">
-                <img class="conteudo-principal4-image" src="images/trio.3.png" alt="mockup marca caixa">
-            </div>
+        <section id="conteudo-principal4" class="flex">
+            <img class="conteudo-principal4-image" src="images/trio.1.png" alt="mockup marca lugar">
+            <img class="conteudo-principal4-image" src="images/trio.2.png" alt="mockup marca papel">
+            <img class="conteudo-principal4-image" src="images/trio.3.png" alt="mockup marca caixa">
         </section>
     </main>
 
-    <footer class="rodape">
-       <div class="rodape-escrito">
-           Criado por Bruna Fusiger
-       </div>
+    <footer id="rodape">
+        <div id="rodape-escrito" class="font-georgia">
+            Criado por Bruna Fusiger
+        </div>
 
-       <div class="rodape-grupo-image">
-           <a href="https://www.linkedin.com/in/bruna-fusiger-5585a11ba/" target="_blank"><img class="rodape-image" src="images/logotipo-do-linkedin.png" alt="Linkedin"></a>
-           <a href="https://www.instagram.com/fusiger_bru/" target="_blank"><img class="rodape-image" src="images/instagram.png" alt="Instagram"></a>
-          <a href="https://github.com/BrunaFusiger" target="_blank"><img class="rodape-image" src="images/placa-do-github.png" alt="GitHub"></a>
-       </div>
+        <div id="rodape-grupo-image" class="flex">
+            <a href="https://www.linkedin.com/in/bruna-fusiger-5585a11ba/" target="_blank"><img class="rodape-image"
+                    src="images/logotipo-do-linkedin.png" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/fusiger_bru/" target="_blank"><img class="rodape-image"
+                    src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/BrunaFusiger" target="_blank"><img class="rodape-image"
+                    src="images/placa-do-github.png" alt="GitHub"></a>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
