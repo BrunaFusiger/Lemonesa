@@ -22,7 +22,8 @@ body {
 }
 
 .cabecalho-image {
-    /* quero colocar o logo mais pra esquerda */
+    /* padding-right: 10px; */
+    /* margin-right: 10px; */
 }
 
 .cabecalho-menu {
@@ -105,7 +106,7 @@ body {
 
 .conteudo-principal4-grupo-image {
     align-items: center;
-    gap: 10px;
+    gap: 55px;
     display: flex;
     justify-content: center;
 }
