@@ -1,0 +1,37 @@
+#cabecalho {
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 130px;
+  box-shadow: 0 0 15px #303030;
+}
+
+#cabecalho-menu {
+  gap: 60px;
+}
+
+.cabecalho-menu-item {
+  font-size: 18px;
+  line-height: 20px;
+  color: #335a36;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color 300ms, transform 300ms;
+  cursor: pointer;
+}
+
+.cabecalho-menu-item:hover {
+  color: #233b25;
+  transform: scale(1.05);
+}
+
+@media (max-width: 750px) {
+  #cabecalho {
+    padding: 20px 40px;
+  }
+  .cabecalho-menu-item {
+    font-size: 16px;
+  }
+  #cabecalho-menu {
+    gap: 30px;
+  }
+}
